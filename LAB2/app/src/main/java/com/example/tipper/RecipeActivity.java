@@ -6,9 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class RecipeActivity extends AppCompatActivity {
-    Button btnBack;
+    private Button btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,8 @@ public class RecipeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 
 

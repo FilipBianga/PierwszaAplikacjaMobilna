@@ -7,9 +7,12 @@
         <entry key="app/src/main/res/drawable/button_bg.xml" value="0.1735" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
         <entry key="app/src/main/res/layout/activity_bmi.xml" value="0.272289766970618" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.272289766970618" />
+        <entry key="app/src/main/res/layout/activity_bmr.xml" value="0.272289766970618" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_recipe.xml" value="0.272289766970618" />
+        <entry key="app/src/main/res/layout/activity_recipemain.xml" value="0.272289766970618" />
         <entry key="app/src/main/res/layout/activity_tdee.xml" value="0.272289766970618" />
+        <entry key="app/src/main/res/layout/cardview_recipe.xml" value="0.272289766970618" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1735" />
       </map>
     </option>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TdeeActivity"
+    tools:context=".BmrActivity"
     android:columnCount="2"
     android:useDefaultMargins="true">
 
@@ -39,43 +39,6 @@
         android:inputType="number|numberDecimal"
         android:text="" />
 
-    <RadioButton
-        android:id="@+id/sex_female"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_row="3"
-        android:layout_column="0"
-        android:ems="10"
-        android:hint="Female"
-        android:inputType="number|numberDecimal"
-        android:text="" />
-
-    <RadioButton
-        android:id="@+id/sex_male"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_row="4"
-        android:layout_column="0"
-        android:ems="10"
-        android:hint="Male"
-        android:inputType="number|numberDecimal"
-        android:text="" />
-
-    <Button
-        android:id="@+id/calculate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_row="5"
-        android:layout_column="0"
-        android:text="CALCULATE" />
-
-    <Button
-        android:id="@+id/btnBack"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_row="8"
-        android:layout_column="0"
-        android:text="BACK" />
 
     <TextView
         android:id="@+id/result"
@@ -87,5 +50,52 @@
         android:gravity="center"
         android:text=""
         android:textSize="24dp" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="0">
+        <RadioButton
+            android:id="@+id/sex_female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:checked="true"
+            android:ems="10"
+            android:hint="Female"
+            android:inputType="number|numberDecimal"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/sex_male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:checked="false"
+            android:ems="10"
+            android:hint="Male"
+            android:inputType="number|numberDecimal"
+            android:text="" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="8"
+        android:layout_column="0"
+        android:text="BACK" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:text="CALCULATE" />
 
 </GridLayout>
