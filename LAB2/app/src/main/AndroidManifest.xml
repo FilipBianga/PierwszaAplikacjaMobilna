@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tipper" >
+    package="com.example.tipper">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,13 @@
         android:label="Main App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SecondRecipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstRecipeActivity"
+            android:exported="false" />
         <activity
             android:name=".RecipeActivity"
             android:exported="false" />
@@ -18,7 +24,7 @@
         <activity
             android:name=".BmiActivity"
             android:exported="false" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
