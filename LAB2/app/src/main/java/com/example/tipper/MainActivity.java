@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    private Button bmi, tdee, recipe;
+    private Button bmi, bmr, recipe;
 
 
     @Override
@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        tdee = (Button) findViewById(R.id.tdee);
-        tdee.setOnClickListener(new View.OnClickListener() {
+        bmr = (Button) findViewById(R.id.bmr);
+        bmr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openTdeeCalculate();
