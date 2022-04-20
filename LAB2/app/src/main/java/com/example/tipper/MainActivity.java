@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         bmr.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openTdeeCalculate();
+                openBmrCalculate();
             }
         });
 
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void openTdeeCalculate() {
-        Intent intent = new Intent(this, TdeeActivity.class);
+    private void openBmrCalculate() {
+        Intent intent = new Intent(this, BmrActivity.class);
         startActivity(intent);
     }
 

@@ -19,7 +19,7 @@
             android:name=".RecipeActivity"
             android:exported="false" />
         <activity
-            android:name=".TdeeActivity"
+            android:name=".BmrActivity"
             android:exported="false" />
         <activity
             android:name=".BmiActivity"
