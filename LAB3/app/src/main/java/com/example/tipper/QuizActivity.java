@@ -94,12 +94,12 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     private void getQuestions(ArrayList<ModelQuiz> modelQuiz) {
-        modelQuiz.add(new ModelQuiz("Pierwsze", "1","2","3","4","3"));
-        modelQuiz.add(new ModelQuiz("Drugie", "1","2","3","4","3"));
-        modelQuiz.add(new ModelQuiz("Trzecie", "1","2","3","4","4"));
-        modelQuiz.add(new ModelQuiz("Czwaerte", "1","2","3","4","2"));
-        modelQuiz.add(new ModelQuiz("Piate", "1","2","3","4","1"));
-        modelQuiz.add(new ModelQuiz("Szoste", "1","2","3","4","1"));
+        modelQuiz.add(new ModelQuiz("Ile porcji zawiera szklanka makaronu?", "Pół porcji","Jedną porcję","Dwie porcję","Trzy porcję","Dwie porcję"));
+        modelQuiz.add(new ModelQuiz("Które z płatków śniadaniowych są najbardziej kaloryczne?", "1 kubek płatków kukurydzianych","1 kubek płatków kukurydzianych z miodem","1 kubek muesli tropikalnego","1 kubek granoli orzechowej","1 kubek granoli orzechowej"));
+        modelQuiz.add(new ModelQuiz("Które mięso zawiera najmniej tłuszczu?", "Chuda mielona wołowina","Mielone mięso indycze","Kurze udka bez skóry","Mielone mięso wieprzowe","Chuda mielona wołowina"));
+        modelQuiz.add(new ModelQuiz("Co ma najwięcej witaminy A?", "Ziemniak","Marchew","Szpinak","Jarmuż","Marchew"));
+        modelQuiz.add(new ModelQuiz("Ile razy dziennie powinno się jeść produkty mleczne?", "2 porcje dziennie, najlepiej rano na śniadanie","2-3 razy dziennie, w ciągu całego dnia","Ludzie aktywni potrzebują od 3 do 4 porcji dziennie","Przynajmniej raz dziennie jedną porcje","2-3 razy dziennie, w ciągu całego dnia"));
+        modelQuiz.add(new ModelQuiz("Jaką ilość płynów powinien wypijać codziennie aktywny człowiek?", "Mężczyźni potrzebują 330 ml (puszka), a kobiety 250 ml (szklanka) płynów","Osiem szklanek dziennie","Tyle, ile trzeba, żeby zaspokoić pragnienie","Sześć-osiem szklanek, wyłączając kawę i inne napoje moczopędne","Sześć-osiem szklanek, wyłączając kawę i inne napoje moczopędne"));
     }
 
     private void setDataView(int pos) {
