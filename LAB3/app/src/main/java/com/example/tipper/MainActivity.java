@@ -8,7 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    private Button bmi, bmr, recipe, quiz;
+    private Button bmi, bmr, recipe, chart, quiz;
 
 
     @Override
@@ -40,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        chart = (Button) findViewById(R.id.chart);
+        chart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                displayChart();
+            }
+        });
+
         quiz = (Button) findViewById(R.id.quiz);
         quiz.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +56,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void displayChart() {
+        Intent intent = new Intent(this, ChartActivity.class);
+        startActivity(intent);
     }
 
     private void displayQuiz() {
