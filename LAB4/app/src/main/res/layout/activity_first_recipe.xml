@@ -4,45 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".FirstRecipeActivity">
 
-    <Button
-        android:id="@+id/bmi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to BMI Calculate"
-        tools:ignore="MissingConstraints"
+    <ImageButton
+        android:id="@+id/firstRecipe"
+        android:background="@drawable/kalafior"
+        android:layout_width="410dp"
+        android:layout_height="216dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.04" />
 
-    <Button
-        android:id="@+id/bmr"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go to BMR Calculate"
-        tools:ignore="MissingConstraints"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.43"
+        android:textSize="24dp"
+        android:text="Krem z Kalafiora"
+        android:gravity="center"/>
 
-    <Button
-        android:id="@+id/recipe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to Recipe"
-        tools:ignore="MissingConstraints"
+    <TextView
+        android:id="@+id/gradients"
+        android:layout_width="417dp"
+        android:layout_height="208dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

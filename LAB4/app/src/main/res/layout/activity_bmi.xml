@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".BmiActivity">
 
-    <Button
-        android:id="@+id/bmi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to BMI Calculate"
-        tools:ignore="MissingConstraints"
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:hint="height"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
@@ -19,30 +18,39 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
 
-    <Button
-        android:id="@+id/bmr"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to BMR Calculate"
-        tools:ignore="MissingConstraints"
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:hint="weight"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.103" />
 
     <Button
-        android:id="@+id/recipe"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to Recipe"
-        tools:ignore="MissingConstraints"
+        android:id="@+id/calculate"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:text="CALCULATE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.183" />
+        app:layout_constraintVertical_bias="0.188" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

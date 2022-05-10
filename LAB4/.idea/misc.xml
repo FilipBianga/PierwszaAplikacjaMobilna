@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/MyApplicationPAMO/app/src/main/res/layout/activity_main.xml" value="0.24954710144927536" />
+        <entry key="app/src/main/res/layout/activity_bmi.xml" value="0.272289766970618" />
+        <entry key="app/src/main/res/layout/activity_bmr.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_first_recipe.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.272289766970618" />
+        <entry key="app/src/main/res/layout/activity_recipe.xml" value="0.272289766970618" />
+        <entry key="app/src/main/res/layout/activity_second_recipe.xml" value="0.272289766970618" />
       </map>
     </option>
   </component>
