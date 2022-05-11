@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/19329_PAMO/LAB4/app/src/main/res/layout/activity_chart.xml" value="0.1" />
+        <entry key="..\:/19329_PAMO/LAB4/app/src/main/res/layout/activity_main.xml" value="0.32653985507246375" />
         <entry key="..\:/MyApplicationPAMO/app/src/main/res/layout/activity_main.xml" value="0.24954710144927536" />
         <entry key="app/src/main/res/layout/activity_bmi.xml" value="0.272289766970618" />
         <entry key="app/src/main/res/layout/activity_bmr.xml" value="0.33" />
