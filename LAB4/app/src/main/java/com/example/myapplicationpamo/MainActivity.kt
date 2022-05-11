@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
 
         val barChart = findViewById<Button>(R.id.barChart)
         barChart.setOnClickListener { displayChart() }
+
+        val quiz = findViewById<Button>(R.id.quiz)
+        quiz.setOnClickListener { displayQuiz() }
     }
 
     private fun displayBmiCalculate() {
@@ -41,6 +44,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun displayChart() {
         val intent = Intent(this, ChartActivity::class.java)
+        startActivity(intent)
+    }
+    private fun displayQuiz() {
+        val intent = Intent(this, QuizActivity::class.java)
         startActivity(intent)
     }
 }
